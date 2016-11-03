@@ -1,0 +1,190 @@
+* {padding: 0; margin: 0;}
+body {font-family: 'Lato', sans-serif;}
+#container {width: 1800px; margin: 0 auto;}
+#container #header {background-color: #c7bda1; width: 1800px; height: 100px;}
+#container #header h1 {color:white; font-size:30px; font-weight:700;}
+.left {width: 900px; height: 500px; float:left;}
+.right {width: 900px; height: 500px; float:right;}
+.img_left_01 {background-image:url(img/Lincoln.jpg);}
+.img_right_01 {background-image:url(img/Sejong.jpg);}
+.img_left_02 {background-image:url(img/EPalace.jpg);}
+.img_right_02 {background-image:url(img/KPalace.jpg);}
+.img_left_03 {background-image: url(img/EBusiness_01.jpg);}
+.img_right_03 {background-image: url(img/KBusiness_01.jpg);}
+.img_left_04 {background-image: url(img/EPresentation_01.jpg);}
+.img_right_04 {background-image: url(img/KPresentation_01.jpg);}
+.img_left_05 {background-image: url(img/Egate_01.jpg);}
+.img_right_05 {background-image: url(img/Kgate_01.jpg);}
+#footer {width:1800px; height:200px; background-color: #20242a; background-image: url(img/footer.jpg);}
+.text {width:400px; height:200px; margin:0 auto; color:white; text-align: center; font-size:18.5px; line-height:28px; font-weight:400;}
+.thank_you {width:1800px; height:850px; margin:0 auto; background-image:url(img/thank_you.jpg);}
+.clear {clear:both;}
+
+@media screen and (max-width: 1960px) and (min-width: 1760px) {
+	#container {background-color: silver; width: 1800px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 1800px; height: 100px;}
+	#container #header h1 {float:left; padding-top:30px; padding-left:20px; color:white; font-size:30px; font-weight:700;}
+	.left {width: 900px; height: 500px; float:left;}
+	.right {width: 900px; height: 500px; float:right;}
+	.img_left_01 {background-image:url(img/Lincoln.jpg);}
+	.img_right_01 {background-image:url(img/Sejong.jpg);}
+	.img_left_02 {background-image:url(img/EPalace.jpg);}
+    .img_right_02 {background-image:url(img/KPalace.jpg);}
+    .img_left_03 {background-image: url(img/EBusiness_01.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_01.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_01.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_01.jpg);}
+	.img_left_05 {background-image: url(img/Egate_01.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_01.jpg);}
+	#footer { width:1800px; height:200px; background-image: url(img/footer.jpg);}
+	.text {width:400px; height:200px; margin:0 auto; color:white; text-align: center; padding-top: 56px; font-size:18.5px; line-height:28px; font-weight:400;}
+	.thank_you {width:1800px; height:850px; margin:0 auto; background-image:url(img/thank_you.jpg);}
+}
+
+@media screen and (max-width: 1760px) and (min-width: 1560px) {
+	#container {background-color: silver; width: 1600px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 1600px; height: 100px;}
+	#container #header h1 {float:left; padding-top:30px; padding-left:20px; color:white; font-size:30px; font-weight:700;}
+	.left {width: 800px; height: 444px; float:left;}
+	.right {width: 800px; height: 444px; float:right;}
+	.img_left_01 {background-image:url(img/Lincoln_02.jpg);}
+	.img_right_01 {background-image:url(img/Sejong_02.jpg);}
+	.img_left_02 {background-image:url(img/EPalace_02.jpg);}
+    .img_right_02 {background-image:url(img/KPalace_02.jpg);}    
+    .img_left_03 {background-image: url(img/EBusiness_02.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_02.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_02.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_02.jpg);}
+	.img_left_05 {background-image: url(img/Egate_02.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_02.jpg);}
+	#footer {width:1600px; height:178px; background-image:url(img/footer_02.jpg);}
+	.text {width:380px; height:178px; margin:0 auto; color:white; text-align: center; padding-top: 56px; font-size:16.5px; line-height:26px; font-weight:400;}
+	.thank_you {width:1600px; height:756px; margin:0 auto; background-image:url(img/thank_you_02.jpg);}
+}
+
+@media screen and (max-width: 1560px) and (min-width: 1360px) {
+	#container {background-color: silver; width: 1400px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 1400px; height: 100px;}
+	#container #header h1 {float:left; padding-top:30px; padding-left:20px; color:white; font-size:30px; font-weight:700;}
+	.left {width: 700px; height: 389px; float:left;}
+	.right {width: 700px; height: 389px; float:right;}
+	.img_left_01 {background-image:url(img/Lincoln_03.jpg);}
+	.img_right_01 {background-image:url(img/Sejong_03.jpg);}
+	.img_left_02 {background-image:url(img/EPalace_03.jpg);}
+    .img_right_02 {background-image:url(img/KPalace_03.jpg);}
+    .img_left_03 {background-image: url(img/EBusiness_03.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_03.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_03.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_03.jpg);}
+	.img_left_05 {background-image: url(img/Egate_03.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_03.jpg);}
+	#footer {width:1400px; height:156px; background-image:url(img/footer_03.jpg);}
+	.text {width:300px; height:156px; margin:0 auto; color:white; text-align: center; padding-top: 25px; font-size:16.5px; line-height:26px; font-weight:400;}
+	.thank_you {width:1400px; height:662px; margin:0 auto; background-image:url(img/thank_you_03.jpg);}
+}
+
+@media screen and (max-width: 1360px) and (min-width: 1160px) {
+	#container {background-color: silver; width: 1200px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 1200px; height: 100px;}
+	#container #header h1 {float:left; padding-top:30px; padding-left:20px; color:white; font-size:30px; font-weight:700;}
+	.left {width: 600px; height: 333px; float:left;}
+	.right {width: 600px; height: 333px; float:right;}
+	.img_left_01 {background-image:url(img/Lincoln_04.jpg);}
+	.img_right_01 {background-image:url(img/Sejong_04.jpg);}
+	.img_left_02 {background-image:url(img/EPalace_04.jpg);}
+    .img_right_02 {background-image:url(img/KPalace_04.jpg);}
+    .img_left_03 {background-image: url(img/EBusiness_04.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_04.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_04.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_04.jpg);}
+	.img_left_05 {background-image: url(img/Egate_04.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_04.jpg);}
+	#footer {width:1200px; height:156px; background-image:url(img/footer_04.jpg);}
+	.text {width:300px; height:156px; margin:0 auto; color:white; text-align: center; padding-top: 25px; font-size:16.5px; line-height:26px; font-weight:400;}
+	.thank_you {width:1200px; height:567px; margin:0 auto; background-image:url(img/thank_you_04.jpg);}
+}
+
+@media screen and (max-width: 1160px) and (min-width: 960px) {
+	#container {background-color: silver; width: 1000px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 1000px; height: 100px;}
+	#container #header h1 {float:left; padding-top:30px; padding-left:20px; color:white; font-size:30px; font-weight:700;}
+	.left {width: 500px; height: 278px; float:left;}
+	.right {width: 500px; height: 278px; float:right;}
+	.img_left_01 {background-image:url(img/Lincoln_05.jpg);}
+	.img_right_01 {background-image:url(img/Sejong_05.jpg);}
+	.img_left_02 {background-image:url(img/EPalace_05.jpg);}
+    .img_right_02 {background-image:url(img/KPalace_05.jpg);}
+    .img_left_03 {background-image: url(img/EBusiness_05.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_05.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_05.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_05.jpg);}
+	.img_left_05 {background-image: url(img/Egate_05.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_05.jpg);}
+	#footer {width:1000px; height:156px; background-image:url(img/footer_05.jpg);}
+	.text {width:280px; height:156px; margin:0 auto; color:white; text-align: center; padding-top: 25px; font-size:16.5px; line-height:26px; font-weight:400;}
+	.thank_you {width:1000px; height:473px; margin:0 auto; background-image:url(img/thank_you_05.jpg);}
+}
+
+@media screen and (max-width: 960px) and (min-width: 760px) {
+	#container {background-color: silver; width: 800px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 800px; height: 100px;}
+	#container #header h1 {float:left; padding-top:30px; padding-left:20px; color:white; font-size:30px; font-weight:700;}
+	.left {width: 400px; height: 222px; float:left;}
+	.right {width: 400px; height: 222px; float:right;}
+	.img_left_01 {background-image:url(img/Lincoln_06.jpg);}
+	.img_right_01 {background-image:url(img/Sejong_06.jpg);}
+	.img_left_02 {background-image:url(img/EPalace_06.jpg);}
+    .img_right_02 {background-image:url(img/KPalace_06.jpg);}
+    .img_left_03 {background-image: url(img/EBusiness_06.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_06.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_06.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_06.jpg);}
+	.img_left_05 {background-image: url(img/Egate_06.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_06.jpg);}
+	#footer {width:800px; height:156px; background-image:url(img/footer_06.jpg);}
+	.text {width:280px; height:156px; margin:0 auto; color:white; text-align: center; padding-top: 25px; font-size:16.5px; line-height:26px; font-weight:400;}
+	.thank_you {width:800px; height:378px; margin:0 auto; background-image:url(img/thank_you_06.jpg);}
+}
+
+@media screen and (max-width: 760px) and (min-width: 560px) {
+	#container {background-color: silver; width: 600px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 600px; height: 100px;}
+	#container #header h1 {float:left; padding-top:30px; padding-left:20px; color:white; font-size:25px; font-weight:700;}
+	.left {width: 300px; height: 222px; float:left;}
+	.right {width: 300px; height: 222px; float:right;}
+	.img_left_01 {background-image:url(img/Lincoln_07.jpg);}
+	.img_right_01 {background-image:url(img/Sejong_07.jpg);}
+	.img_left_02 {background-image:url(img/EPalace_07.jpg);}
+    .img_right_02 {background-image:url(img/KPalace_07.jpg);}
+    .img_left_03 {background-image: url(img/EBusiness_07.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_07.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_07.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_07.jpg);}
+	.img_left_05 {background-image: url(img/Egate_07.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_07.jpg);}
+	#footer {width:600px; height:156px; background-image:url(img/footer_07.jpg);}
+	.text {width:280px; height:156px; margin:0 auto; color:white; text-align: center; padding-top: 25px; font-size:16.5px; line-height:26px; font-weight:400;}
+	.thank_you {width:600px; height:284px; margin:0 auto; background-image:url(img/thank_you_07.jpg);}
+}
+
+
+@media screen and (max-width: 560px) and (min-width: 144px) {
+	#container {background-color: silver; width: 320px; margin: 0 auto;}
+	#container #header {background-color: #c7bda1; width: 320px; height: 100px;}
+	#container #header h1 {padding-top:30px; padding-left:20px; padding-right:40px; color:white; font-size:19px; font-weight:700;}
+	.left {width: 320px; height: 222px;}
+	.right {width: 320px; height: 222px;}
+	.img_left_01 {background-image:url(img/Lincoln_08.jpg);}
+	.img_right_01 {background-image:url(img/Sejong_08.jpg);}
+	.img_left_02 {background-image:url(img/EPalace_08.jpg);}
+    .img_right_02 {background-image:url(img/KPalace_08.jpg);}
+    .img_left_03 {background-image: url(img/EBusiness_08.jpg);}
+    .img_right_03 {background-image: url(img/KBusiness_08.jpg);}
+    .img_left_04 {background-image: url(img/EPresentation_08.jpg);}
+	.img_right_04 {background-image: url(img/KPresentation_08.jpg);}
+	.img_left_05 {background-image: url(img/Egate_08.jpg);}
+	.img_right_05 {background-image: url(img/Kgate_08.jpg);}
+	#footer {width:320px; height:156px; background-image:url(img/footer_08.jpg);}
+	.text {width:205px; padding-top:13px; margin:0 auto; color:white; text-align: center; font-size:15px; line-height:26px; font-weight:400;}
+	.thank_you {width:320px; height:250px; margin:0 auto; background-image:url(img/thank_you_08.jpg);}
+}
