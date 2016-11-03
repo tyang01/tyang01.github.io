@@ -1,0 +1,20 @@
+@font-face {font-family:larimar; src:url(font/larimar-webfont.woff);}
+.logo {padding-top:19px; padding-left:20px; padding-right:20px;}
+.header_font_size {font-size:19px;}
+#larimar {font-family:larimar;}
+#lato_regular {font-family:'Lato';}
+#lato_bold {font-family:'Lato'; font-weight:bold;}
+#lato_black {font-family:'Lato'; font-weight:black;}
+.slide_title_align {line-height:55px;}
+.slide_03_title {line-height:53px;}
+.header_b {font-size:20px; line-height:31px;}
+.header_b_sub_title {font-size:19px;}
+.slide_bottom_title {font-size:23px;}
+#medium_dish_03 {margin-left: 28px;}
+.data_filters_menu {font-size:21px;}
+#tm-bottom-e {padding-top:65px; padding-bottom:65px;}
+.menu_sub_title {font-size:17px;}
+#subscribe_button {font-family:larimar;}
+#booking_submit {font-family:larimar;}
+.bottom_font_size {font-size:26px;}
+#small_logo {margin-bottom:13px;}
