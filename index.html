@@ -3,811 +3,356 @@
 <head>
   <!-- meta -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="images/x-icon" href="img/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <title>Shoyu Sushi</title>
   <!-- css -->
-  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-
+  <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script type="text/javascript" src="js/action.js"></script>
 </head>
-
 <body>
-  <!-- main bar -->
-  <div class="tm-navbar" data-uk-sticky>
-    <nav class="tm-navbar-container uk-flex">
-
-      <!-- small logo -->
-      <div class="tm-nav-logo-small">
-        <a class="tm-logo-small" href="index.html">
-          <img id="small_logo" src="img/logo.png" width="170" height="65" alt="logo" class="logo">
+  <div id="wrap">
+    <div id="main_01">
+      <div id="header">
+        <a id="logo" href="index.html">
+          <img src="img/logo.png">
         </a>
-      </div>
-
-      <!-- main menu -->
-      <div class="tm-nav uk-hidden-small">
-        <ul class="uk-navbar-nav uk-hidden-small">
-
-          <!-- Home -->
-          <li class="uk-parent uk-active" data-uk-dropdown>
-            <a href="index.html" class="header_font_size"id="larimar">Home</a>
+        <ul id="header_menu">
+          <li id="menu_01">
+            <a id="menu_btn_01" href="index.html">HOME</a>
           </li>
-
-          About
-          <li class="uk-parent" data-uk-dropdown>
-            <a href="About.html" id="larimar">About</a>
+          <li id="menu_02">
+            <a id="menu_btn_02" href="about.html">ABOUT</a>
           </li>
-
-          <!-- Menu  -->
-          <li class="uk-parent" data-uk-dropdown>
-            <a href="#" id="larimar">Menu</a>
+          <li id="menu_03">
+            <a id="menu_btn_03" href="#">MENU</a>
           </li>
-
-          <!-- Events menu -->
-          <li>
-            <a href="#" id="larimar">Events</a>
+          <li id="menu_04">
+            <a id="menu_btn_04" href="#">EVENTS</a>
           </li>
-
-          <!-- Contact us menu -->
-          <li>
-            <a href="#" id="larimar">Contact Us</a>
+          <li id="menu_05">
+            <a id="menu_btn_05" href="#">CONTACT US</a>
           </li>
-
-          <!-- Direction menu -->
-          <li>
-            <a href="#" id="larimar">Direction</a>
+          <li id="menu_06">
+            <a id="menu_btn_06" href="#">DIRECTION</a>
           </li>
         </ul>
       </div>
-
-      <!-- offcanvas nav icon -->
-      <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-    
-    </nav>
-  </div>
-
-  <!-- header a -->
-  <div id="tm-header-a" class="tm-block-header-a uk-block uk-block-default tm-block-fullwidth tm-grid-collapse tm-gradient-header" >
-    <div class="uk-container uk-container-center">
-      <section class="tm-header-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}">
-        <div class="uk-width-1-1">
-          <div class="uk-panel">
-
-            <!-- slideshow -->
-            <div class="tm-slideshow-gaucho uk-slidenav-position" data-uk-slideshow="{autoplay:false, animation: 'scale', pauseOnHover: true, duration: 750, autoplayInterval: 15000, kenburns: true, kenburnsanimations: 'uk-animation-top-center'}">
-              <ul class="uk-slideshow uk-overlay-active">
-
-                <!-- slide 1 -->
-                <li>
-                  <img src="img/main.png" width="1200" height="500" alt="main">
-                  <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-slide-left">
-                    <div>
-                      <h3 class="slide_title_align" id="lato_regular">ONLY FRESH INGREDIENTS</br>IN OUR KITCHEN</h3>
-                      <div class="uk-margin">
-                        <p id="lato_regular">The high quality standards, set by our chef Bruce, are followed due to delivery of unique fish, seafood and original Japanese products to Ukraine exclusively for the Shoyu Sushi.</p>
-                      </div>
-                      <a class="uk-button-default uk-button-large uk-button" href="#" target="_self" id="larimar">SEE MORE</a>
-                    </div>
-                  </div>
-                </li>
-
-                <!-- slide 2 -->
-                <li>
-                  <img src="img/main_02.png" width="1200" height="500" alt="main_02">
-                  <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-slide-left">
-                    <div>
-                      <h3 class="slide_title_align" id="lato_regular">COME SAY HELLO</br>TO OUR RESTAURANT</h3>
-                      <div class="uk-margin">
-                        <p id="lato_regular">Our chef maintains a high standard of fish selection, hand picking the freshest fish for his restaurant. He provides true passion and care for his sushi rolls, and has chosen humorous names such as the 'Hot Night Baby' roll, 'Who's Your Daddy,' and the legendary Japanese Burrito.</p>
-                      </div>
-                      <a class="uk-button-default uk-button-large uk-button" href="#" target="_self" id="larimar">SEE MORE</a>
-                    </div>
-                  </div>
-                </li>
-
-                <!-- slide 3 -->
-                <li>
-                  <img src="img/main_03.png" width="1200" height="500" alt="demo">
-                  <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-slide-left">
-                    <div>
-                      <h3 class="slide_03_title" id="lato_regular">EAT HELTHY STAY HEALTHY</h3>
-                      <div class="uk-margin">
-                        <p id="lato_regular">He works alongside a team of a few hard working employees, who constantly work twice as hard to make up for the small team. Shoyou Sushi brings in a variety of customers from the DC/Baltimore area, and maintains its reputation for the freshest and premium fish in the area.</p>
-                      </div>
-                      <a class="uk-button-default uk-button-large uk-button" href="#" target="_self" id="larimar">SEE MORE</a>
-                    </div>
-                  </div>
-                </li>
-
-              </ul>
-
-              <!-- slide navigation buttons -->
-              <div class="uk-margin">
-                <ul class="uk-dotnav uk-flex-right uk-hidden-touch">
-                  <li data-uk-slideshow-item="0"><a href=""></a></li>
-                  <li data-uk-slideshow-item="1"><a href=""></a></li>
-                  <li data-uk-slideshow-item="2"><a href=""></a></li>
-                </ul>
-              </div>
+      <div id="slider">
+        <div id="sub_slide">
+          <div id="sub_slide_01">
+            <div id="sub_slide_01_title">
+              <p>ONLY FRESH INGREDIENTS IN OUR KITCHEN</p>
+            </div>
+            <div id="sub_slide_01_text">
+              <p>THe high quality standards, set by our chef Bruce, are followed due to delivery of unique fish, seafood and original Japanese products to Ukraine exclusively for the Shoyu Sushi.</p>
+            </div>
+            <div id="sub_slide_01_btn">
+              <button id="see_more">
+                <a href="#">SEE MORE</a>
+              </button>
+            </div>
+          </div>
+          <div id="sub_slide_02">
+            <ul id="sub_slide_btn_box">
+              <li class="sub_slide_btn">
+                <a href="#"></a>
+              </li>
+              <li id="sub_slide_btn_center" class="sub_slide_btn">
+                <a href="#"></a>
+              </li>
+              <li class="sub_slide_btn">
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="sub_slide_logo_box"></div>
+      </div>
+      <div id="main_01_under">
+        <div id="main_01_under_box">
+          <div id="main_01_under_box_grey">
+            <div id="main_01_under_box_grey_textbox">
+              <p>Good food is like music to the stomach Every bite makes you want to dance</p>
+            </div>
+            <div id="main_01_under_box_grey_imgbox">
+              <img src="img/header_b_sushi.png">
+            </div>
+          </div>
+          <div id="main_01_under_box_white">
+            <div id="main_01_under_box_white_titlebox">
+              <img src="img/white_box_title.png">
+            </div>
+            <div id="main_01_under_box_white_textbox">
+              <p>Shoyu Sushi is one of the most conveted sushi spots in Baltimore. Although the restaurant size is small, the sushi rolls are trully larger than life. Our hcefs maintain a high standard of fish selection, hand picking the freshest fish for his restaurant. He provides true passion and care for his hushi rolls, and has chosen humorous names such as the 'Hot Night Baby'roll and 'Who's Your Daddy'.</p>
+            </div>
+            <div id="main_01_under_box_white_btnbox">
+              <div id="main_01_under_box_white_btnbox_inside"> 
+              <button id="white_btn_01">SEE THE MENU</button>
+              <button id="white_btn_02">TAKE ORDER</button>
+            </div> 
             </div>
           </div>
         </div>
-      </section>
-    </div>
-  </div>
-
-  <!-- logo -->
-  <div id="tm-logo">
-    <div class="uk-container uk-container-center">
-      <a class="tm-logo uk-hidden-small uk-flex uk-flex-middle uk-flex-center" href="index.html">
-        <img src="img/logo.png" width="300" height="120" alt="demo">
-      </a>
-    </div>
-  </div>
-
-  <div class="tm-header-box">
-    <div class="uk-container uk-container-center">
-    
-    <!-- header b -->
-    <div id="tm-header-b" class="tm-block-header-b uk-block tm-padding-remove uk-block-default" >
-      <section class="tm-header-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>              
-        <div class="uk-width-1-1 uk-width-medium-1-3">
-          <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
-
-            <div class="uk-text-center">
-            <h3 class="tm-quote header_b" id="lato_regular">Good food is like music to the stomach. Every bite makes</br>you want to dance</h3>
-            </div>
-            
-            <img class="tm-img-bottom" src="img/header_b.png" alt="demo" width="380" height="260">
-            </div></div>
-
-            <div class="uk-width-1-1 uk-width-medium-2-3">
-              <div class="uk-panel uk-panel-box uk-text-center">
-
-                  <h1 class="uk-module-title-alt" id="lato_regular">Great food. Tastes good.</h1>
-                  <h3 class="uk-sub-title header_b_sub_title" id="larimar"> If you can dream it, you can do it.</h3>
-                  <p id="lato_regular">Shoyu Sushi is one of the most conveted sushi spots in Baltimore. Although the restaurant size is small, the sushi rolls are trully larger than life. Our hcefs maintain a high standard of fish selection, hand picking the freshest fish for his restaurant. He provides true passion and care for his hushi rolls, and has chosen humorous names such as the 'Hot Night Baby'roll and 'Who's Your Daddy'.</p>
-                  <br>
-
-                  <a class="uk-button-primary uk-button-large uk-button" href="#" target="_self" id="larimar">SEE THE MENU</a>
-                  <a class="uk-button-secondary uk-margin-left uk-button-large uk-button" href="#" target="_self" id="larimar">TAKE ORDER</a>
-              </div>
-          </div>
-        </section>
       </div>
     </div>
-  </div>
-
-  <!-- top-a -->
-  <div id="tm-top-a" class="tm-block-top-a uk-block uk-block-default">
-    <div class="uk-container uk-container-center">
-      <section class="tm-top-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
-
-        <div class="uk-width-1-1">
-          <div class="uk-panel uk-text-center">
-
-            <h2 class="uk-module-title-alt uk-margin-large-bottom" id="lato_regular">Our most loved dishes</h2>
-
-            <div class="uk-grid" data-uk-grid-margin>
-              <div class="uk-width-medium-1-4">
-                <div data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:100}">
-                  <h3 class="tm-primary-color uk-margin-small slide_bottom_title" id="larimar">VOLCANO #2</h3>
-                  <ul class="tm-rating">
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                  </ul>
-                  <img src="img/dish_01.png" alt="dish" width="180" height="180">
-                  <p class="tm-price">$ 9.50</p>
-                </div>
-              </div>
-
-              <div class="uk-width-medium-1-4">
-                <div data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:300}">
-                  <h3 class="tm-primary-color uk-margin-small slide_bottom_title" id="larimar">GIMBAP SPECIAL</h3>
-                  <ul class="tm-rating">
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                  </ul>
-                  <img src="img/dish_02.png" alt="dish" width="143" height="180">
-                  <p class="tm-price">$ 5.50</p>
-                </div>
-              </div>
-
-              <div class="uk-width-medium-1-4">
-                <div data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:500}">
-                  <h3 class="tm-primary-color uk-margin-small slide_bottom_title" id="larimar">TEMPURA CRUNCH ROLL</h3>
-                  <ul class="tm-rating">
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                  </ul>
-                  <img src="img/dish_03.png" alt="dish" width="230" height="180" id="medium_dish_03">
-                  <p class="tm-price">$ 10.50</p>
-                </div>
-              </div>
-
-              <div class="uk-width-medium-1-4">
-                <div data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:700}">
-                  <h3 class="tm-primary-color uk-margin-small slide_bottom_title" id="larimar">RAIBOW SPECIAL ROLL</h3>
-                  <ul class="tm-rating">
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                    <li><i class="uk-icon-star"></i></li>
-                  </ul>
-                  <img src="img/dish_04.png" alt="dish" width="202" height="180">
-                  <p class="tm-price">$ 8.50</p>
-                </div>
-              </div>
-
+    <div id="main_02">
+      <div id="main_02_box">
+        <div id="main_02_title">
+          <img src="img/main_02_title.png">
+        </div>
+        <div id="main_02_menu_list">
+          <div id="menu_list_01">
+            <div class="title">
+              <p>VOLCANO #2</p>
+            </div>
+            <div id="star_01" class="star">
+              <img src="img/stars.png">
+            </div>
+            <div class="menu_list_imgbox">
+              <img id="dish_01" src="img/dish_01.png">
+            </div>
+            <div class="price">
+              <p id="price_tag_01">$ 9.50</p>
+            </div>
+          </div>
+          <div id="menu_list_02">
+            <div class="title">
+              <p>GIMBAP SPECIAL</p>
+            </div>
+            <div id="star_02" class="star">
+              <img src="img/stars.png">
+            </div>
+            <div class="menu_list_imgbox">
+              <img id="dish_02" src="img/dish_02.png">
+            </div>
+            <div class="price">
+              <p id="price_tag_02">$ 5.50</p>
+            </div>
+          </div>
+          <div id="menu_list_03">
+            <div class="title">
+              <p>TEMPURA CRUNCH ROLL</p>
+            </div>
+            <div id="star_03" class="star">
+              <img src="img/stars.png">
+            </div>
+            <div class="menu_list_imgbox">
+              <img id="dish_03" src="img/dish_03.png">
+            </div>
+            <div class="price">
+              <p id="price_tag_03">$ 10.50</p>
+            </div>
+          </div>
+          <div id="menu_list_04">
+            <div class="title">
+              <p>RAINBOW SPECIAL ROLL</p>
+            </div>
+            <div id="star_04" class="star">
+              <img src="img/stars.png">
+            </div>
+            <div class="menu_list_imgbox">
+              <img id="dish_04" src="img/dish_04.png">
+            </div>
+            <div class="price">
+              <p id="price_tag_04">$ 8.50</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-  </div>
-  <!-- top-b -->
-  <div id="tm-top-b" class="tm-block-top-b uk-block uk-block-default tm-inner-shadow tm-overlay-secondary" data-uk-parallax="{bg: '-200'}" style="background-image: url('img/seafood_deco_01.jpg');">
-    <div class="uk-container uk-container-center">
-      <section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
-
-        <div class="uk-width-1-1">
-          <div class="uk-panel uk-text-center uk-contrast">
-
-            <h2 class="uk-module-title-alt uk-margin-large-bottom" id="lato_regular">Today's Specials</h2>
-            <div class="tm-slideset-gaucho uk-contrast" data-uk-slideset="{default: 1,small: 2,medium: 2,large: 3, xlarge: 3, animation: 'fade'}">
-
-              <!-- data filters -->
-              <ul class="uk-subnav uk-flex-center">
-                <li data-uk-filter=""><a href="#" class="data_filters_menu" id="larimar">ALL</a></li>
-                <li data-uk-filter="bread"><a href="#" class="data_filters_menu" id="larimar">SUSHI</a></li>
-                <li data-uk-filter="chicken"><a href="#" class="data_filters_menu" id="larimar">SASHIMI</a></li>
-                <li data-uk-filter="fish"><a href="#" class="data_filters_menu" id="larimar">SPECIALTY ROLLS</a></li>
-                <li data-uk-filter="pasta"><a href="#" class="data_filters_menu" id="larimar">CLASSIC MAKI</a></li>
-                <li data-uk-filter="prawns"><a href="#" class="data_filters_menu" id="larimar">APPETIZER</a></li>
+    <div id="main_03">
+      <div id="main_03_title">
+        <img src="img/special_title.png">
+      </div>
+      <div id="main_03_list_box">
+        <ul id="main_03_list">
+          <li>ALL</li>
+          <li id="main_03_menu_02">SUSHI</li>
+          <li>SPECIAL</li>
+          <li id="main_03_menu_04">SPECIAL ROLLS</li>
+          <li>CLASSIC MAKI</li>
+          <li id="main_03_menu_06">APPETIZER</li>
+        </ul>
+      </div>
+      <div id="main_03_menu_box">
+        <div id="main_03_dish_box">
+          <div id="main_03_dish_01">
+            <img src="img/main_03_dish_01.png">
+          </div>
+          <div id="main_03_dish_02">
+            <img src="img/main_03_dish_02.png">
+          </div>
+          <div id="main_03_dish_03">
+            <img src="img/main_03_dish_03.png">
+          </div>
+        </div>
+      </div>
+      <div id="main_03_btn_box">
+        <ul>
+          <li class="main_03_btn"></li>
+          <li id="main_03_btn_center" class="main_03_btn"></li>
+          <li class="main_03_btn"></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main_04">
+      <div id="main_04_box_01">
+        <div id="main_04_title">
+          <img src="img/main_04_title.png">
+        </div>
+        <div id="main_04_paragraph">
+          <p>Sumptuous delicious food made in </br> chef's hands with fresh foods</p>
+        </div>
+        <div id="main_04_btnbox">
+          <button id="main_04_btn">SEE MORE</button>
+        </div>
+        <div id="main_04_imgbox"></div>
+      </div>
+      <div id="main_04_box_02">
+        <div id="main_04_box_02_paragraphbox_01">
+          <div id="main_04_menu_01">
+            <img src="img/main_04_menu_01.png">
+          </div>
+          <div id="main_04_menu_02">
+            <img src="img/main_04_menu_02.png">
+          </div>
+          <div id="main_04_menu_03">
+            <img src="img/main_04_menu_03.png">
+          </div>
+          <div id="main_04_menu_04">
+            <img src="img/main_04_menu_04.png">
+          </div>
+        </div>
+        <div id="main_04_box_02_paragraphbox_02">
+          <div id="main_04_menu_05">
+            <img src="img/main_04_menu_05.png">
+          </div>
+          <div id="main_04_menu_06">
+            <img src="img/main_04_menu_06.png">
+          </div>
+          <div id="main_04_menu_07">
+            <img src="img/main_04_menu_07.png">
+          </div>
+          <div id="main_04_menu_08">
+            <img src="img/main_04_menu_08.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="email">
+      <div id="email_box">
+        <div id="email_textbox">
+          <p>Drop your email address and stay connected</p>
+        </div>
+        <div id="email_formbox">
+          <div id="email_form">
+            <input type="text" placeholder="Your name" class="form_info">
+            <input type="text" placeholder="Email address" id="form_email" class="form_info">
+          </div>
+          <button id="email_btn">SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+    <div id="main_05">
+      <div id="main_05_box">
+        <div id="main_05_textbox">
+          <div id="main_05_textbox_top">
+            <div id="main_05_textbox_left">
+              <ul id="main_05_textbox_left_titlebox">
+                <li id="title">Where we are</li>
+                <li id="white_stroke"></li>
               </ul>
-
-              <!-- slide panels -->
-              <div class="uk-slidenav-position uk-margin">
-                <ul class="uk-grid uk-slideset uk-grid-match uk-flex-center">
-
-                  <li data-uk-filter="pasta">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-1.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_09.jpg" class="uk-overlay-scale" alt="Butternut ravioli" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Philadelphia Roll</h3> This is a makizushi type of sushi. It is traditionally a healthy food in its Japanese iteration.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="fish">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-7.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay">
-                          <img src="img/special_07.jpg" class="uk-overlay-scale" alt="Grilled snapper" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Spicy Tuna Roll</h3> Lightly battered tempura shrimp, avocado, crab salad, served with eel sauce.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="chicken">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-3.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_04.jpg" class="uk-overlay-scale" alt="Roasted chicken" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Smoked Salmon</h3> Smoked Salmon is full of healthy omega 3 fats. It comprises of slices of either cooked or raw shellfish.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="chicken">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-2.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_05.jpg" class="uk-overlay-scale" alt="Roasted chicken" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Octopus</h3> Tako means Octopus in Japanese. Tako sushi uses the leg of the octopus, where most of the meat is.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="chicken">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-1.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_06.jpg" class="uk-overlay-scale" alt="Roasted chicken" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Fresh water eel</h3> Eel, or unagi, is a crowd favorite in most sushi bars. Unagi is full of protein, vitamins and calcium.
-                  </li>
-
-                  <li data-uk-filter="fish">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-8.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_08.jpg" class="uk-overlay-scale" alt="Golden Prawns" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Play Boy Roll</h3> Crabstick & avocado on top of a shrimp crunch roll, served with house sauce.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="prawns">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-4.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_12.jpg" class="uk-overlay-scale" alt="Golden Prawns" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Gyoza Dumpling</h3> Gyoza are dumplings filled with ground meat and vegetables and wrapped in a thin dough.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="prawns">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-5.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_13.jpg" class="uk-overlay-scale" alt="French Salad" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Calamari</h3> It is small fried squid. Calamari is rich in vitamins and minerals. Calamari is also a rich source of B vitamins.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="prawns">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-5.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_14.jpg" class="uk-overlay-scale" alt="French Salad" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Shumai</h3> Shumai which is also called pork dumblings is a type of traditional Chinese dumpling served as dim sum.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="bread">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-6.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_01.jpg" class="uk-overlay-scale" alt="Focaccia Bread" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title panel_title_font_size" id="lato_regular">Big Eye Tuna</h3>
-                      Maguro is the Japanese term for bluefin tuna. The tuna looked like a slice of marbled steak than a fish.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="bread">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-5.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_02.jpg" class="uk-overlay-scale" alt="Focaccia Bread" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Flying Fish Roe</h3>The eggs are small, ranging from 0.6mm. Tobiko is very nitritious, due to its high vitabin content.
-                    </div>
-                  </li>
-
-                   <li data-uk-filter="bread">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-4.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_03.jpg" class="uk-overlay-scale" alt="Focaccia Bread" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Salmon Roe</h3>Ikura is a food served as part of another dish and it is a garnish on various types of sushi.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="pasta">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-7.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_10.jpg" class="uk-overlay-scale" alt="Spaghetti Bolognese" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Tuna Roll</h3> Makizushi usually come in two types, futomaki and hosomaki. They are all delicious and fresh dishes.
-                    </div>
-                  </li>
-
-                  <li data-uk-filter="pasta">
-                    <div class="uk-panel uk-panel-box uk-panel-box-hover uk-overlay-hover uk-text-left" id="lato_regular">
-                      <a href="img/special-7.jpg"></a>
-                      <div class="uk-text-center uk-panel-teaser">
-                        <div class="uk-overlay ">
-                          <img src="img/special_11.jpg" class="uk-overlay-scale" alt="Spaghetti Bolognese" width="400" height="300">
-                          <div class="uk-overlay-panel uk-overlay-background uk-overlay-icon uk-overlay-fade"></div>
-                        </div>
-                      </div>
-                      <h3 class="uk-panel-title" id="lato_regular">Shrimp &amp; Crap Roll</h3> Shrimp &amp; Crap Roll is so popular that even people who don't want to try exotic, ethnic food will eat it.
-                    </div>
-                  </li>
-
-
+              <div id="main_05_textbox_left_pbox">
+                <p>The secret of success of Japanese cuisine opens with best quality intredients, beautiful courses presentation and respectful attitude both to the product and to the work with it.</p>
+              </div>
+            </div>
+            <div id="main_05_textbox_right">
+              <ul id="main_05_textbox_right_titlebox">
+                <li id="title">Open Hours</li>
+                <li id="white_stroke"></li>
+              </ul>
+              <div id="main_05_textbox_right_pbox">
+                <ul id="open_hour_left">
+                  <li>Monday - Friday</li>
+                  <li>Saturdays</li>
+                  <li>Sundays</li>
                 </ul>
-
-              <!-- slideset navigation -->
-              <ul class="uk-slideset-nav uk-dotnav uk-flex-center uk-margin-bottom-remove">
-                <li data-uk-slideset-item="0"><a></a></li>
+                <ul id="open_hour_right">
+                  <li>8:00 am to 10:00 pm</li>
+                  <li>8:00 am to 12:00 pm</li>
+                  <li>1:00 pm to 9:00 pm</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="iconbox">
+            <ul>
+              <li id="icon_01"><img src="img/icon_01.png"></li>
+              <li id="icon_02"><img src="img/icon_02.png"></li>
+              <li id="icon_03"><img src="img/icon_03.png"></li>
+            </ul>
+          </div>
+          <div id="main_05_textbox_bottom">
+            <div id="main_05_textbox_bottom_left">
+              <ul>
+                <li>Shoyou Sushi</li>
+                <li>1504 Light St</li>
+                <li>Baltimore, MD 21230</li>
+                <li>410. 685. 2989</li>
+                <li>Designed by Thomas</li>
               </ul>
-
             </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-
-  <!-- top-c -->
-  <div id="tm-top-c" class="tm-block-top-c uk-block uk-block-default">
-    <div class="uk-container uk-container-center">
-      <section class="tm-top-c uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
-
-        <div class="uk-width-1-1 uk-width-medium-1-3">
-          <div class="uk-panel uk-text-center">
-
-            <img class="tm-img-top-left" src="img/sushi_deco_top.png" alt="demo" width="250" height="125">
-
-            <br>
-            <h1 class="uk-module-title-alt uk-margin-large-top uk-margin-bottom-small" id="lato_regular">Our menu</h1>
-            <h3 class="uk-sub-title menu_sub_title" id="larimar">Goodness &amp; Taste</h3>
-
-            <p class="tm-padding-small-sides" id="lato_regular">
-              Sumptuous delicious food made in chef's hands with spices
-            </p>
-
-            <br>
-            <a class="uk-button-default uk-button-large uk-button" href="#" target="_self" id="larimar">SEE MORE</a>
-
-            <div data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:100}">
-              <img class="tm-img-bottom-center" src="img/img_bottom_center.png" alt="demo" width="340" height="230">
-            </div>
-          </div>
-        </div>
-
-        <div class="uk-width-1-1 uk-width-medium-2-3">
-          <div class="uk-panel">
-
-            <div class="uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-2" data-uk-grid-margin>
-
-              <div class="uk-panel uk-panel-space">
-                <div data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:500}">
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">Shrimp Tempura Roll</h3>
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 8.90</span>
-                    <span class="tm-menu-desc" id="lato_regular">Lightly battered tempura shrimp, avocado crab salad, served with eel sauce</span>
-                  </div>
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">Spicy Tuna Tempura Roll</h3>
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 12.90</span>
-                    <span class="tm-menu-desc" id="lato_regular">Lightly battered tempura spicy tuna<br>served with eel sauce</span>
-                  </div>
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">Baked White Fish Roll</h3>
-
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 9.80</span>
-                    <span class="tm-menu-desc" id="lato_regular">Slice of white fish on top of a California roll</span>
-                  </div>
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">Baked Scallop Roll</h3>
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 8.95</span>
-                    <span class="tm-menu-desc" id="lato_regular">Baked scallop on top of a California roll</span>
-                  </div>
+            <div id="main_05_textbox_bottom_right">
+              <ul id="main_05_textbox_bottom_right_title">
+                <li id="title">From the Chef</li>
+                <li id="white_stroke"></li>
+              </ul>
+              <div id="main_05_textbox_bottom_right_textbox">
+                <div id="right_imgbox">
+                  <img src="img/chef.png">
                 </div>
-              </div>
-
-              <div class="uk-panel uk-panel-space">
-                <div data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:700}">
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">California Tempura Roll</h3>
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 9.90</span>
-                    <span class="tm-menu-desc" id="lato_regular">Lightly battered tempura California roll<br>served with eel sauce</span>
-                  </div>
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">Salmon Tempura Roll</h3>
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 6.90</span>
-                    <span class="tm-menu-desc" id="lato_regular">Lightly battered tempura salmon<br>served with eel sauce</span>
-                  </div>
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">Baked Garlic Tuna Roll</h3>
-
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 5.90</span>
-                    <span class="tm-menu-desc" id="lato_regular">Slice of tuna on top of a California roll</span>
-                  </div>
-                  <div class="tm-menu-item tm-menu-compound">
-                    <h3 class="tm-menu-name" id="lato_regular">Baked Alaskan Roll</h3>
-
-                    <span class="tm-menu-dots"></span>
-                    <span class="tm-menu-price" id="lato_regular">$ 9.80</span>
-                    <span class="tm-menu-desc" id="lato_regular">Slice of salmon on top of a California roll</span>
-                  </div>
+                <div id="right_quotebox">
+                  <p>"My team always maintains</br> a high standard of fish</br> selection, hand picking the</br> freshest fish for our</br> restaurant."</p>
                 </div>
-              </div>
-
-            </div>
-
-            <img class="tm-img-bottom-right" src="img/sushi_deco_bottom.png" alt="demo" width="310" height="200">
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-
-  <!-- bottom-a -->
-  <div id="tm-bottom-a" class="tm-block-bottom-a uk-block uk-block-secondary">
-    <div class="uk-container uk-container-center">
-      <section class="tm-bottom-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
-        <div class="uk-width-1-1">
-          <div class="uk-panel">
-
-            <div class="uk-grid" data-uk-grid-margin>
-
-              <div class="uk-width-medium-1-2">
-                <h2 class="uk-margin-small-top" id="lato_regular">Drop us your email address and stay connected</h2>
-              </div>
-              <div class="uk-width-medium-1-2">
-
-              <!-- subscription form -->
-                <form id="subscribe_form" class="uk-form">
-
-                  <div id="alert-msg-subscribe" class="alert-msg"></div>
-                  
-                  <div class="uk-grid" data-uk-grid-margin>
-
-                    <div class="uk-width-medium-2-5">
-                      <div>
-                        <input type="text" placeholder="Your name" name="subscribe-name" class="uk-width-1-1" required="required" id="lato_regular">
-                      </div>
-                    </div>
-
-                    <div class="uk-width-medium-2-5">
-                      <div>
-                        <input type="email" placeholder="Email address" name="subscribe-email" class="uk-width-1-1" required="required" id="lato_regular">
-                      </div>
-                    </div>
-
-                    <div class="uk-width-medium-1-5">
-                      <div class="form-group uk-margin-remove">
-                        <button id="subscribe_button" type="submit" class="uk-button uk-button-primary uk-button-large">SUBSCRIBE</button>
-                      </div>
-                    </div>
-
-                  </div>
-                </form>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-  </div>
-
-  <!-- bottom-d -->
-  <div id="tm-bottom-d" class="tm-block-bottom-d uk-block uk-block-default tm-inner-shadow tm-overlay-secondary" data-uk-parallax="{bg: '-200'}" style="background-image: url('img/tm_bottom.jpg');">
-    <div class="uk-container uk-container-center">
-      <section class="tm-bottom-d uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
-
-        <div class="uk-width-1-1 uk-width-medium-1-3">
-          <div class="uk-panel uk-contrast">
-
-            <h2 class="uk-module-title-alt uk-margin-large-top bottom_font_size" id="lato_regular">Where we are</h2>
-
-            <p id="lato_regular">The secret of success of Japanese cuisine opens with best quality intredients, beautiful courses presentation and respectful attitude both to the product and to the work with it.</p>
-            <br>
-
-            <div class="tm-socialbuttons">
-              <a class="uk-icon-button uk-icon-vk" target="_blank"></a>
-              <a class="uk-icon-button uk-icon-dribbble" target="_blank"></a>
-              <a class="uk-icon-button uk-icon-facebook" target="_blank"></a>
-              <a class="uk-icon-button uk-icon-twitter" target="_blank"></a>
+        <div id="main_05_orderform">
+          <div id="main_05_orderform_title">
+            <img src="img/order_form_title.png">
+          </div>
+          <div id="main_05_orderform_body">
+            <div class="main_05_orderform_box">
+              <input type="text" placeholder="Name">
             </div>
-
-            <br>
-
-            <p>Shoyu Sushi
-              <br> 1504 Light St
-              <br> Baltimore, MD 21230
-              <br> 410. 685. 2989
-              <br> Designed by <a href="https://www.behance.net/triumphalboy" target="_blank">Thomas</a>
-            </p>
+            <div class="main_05_orderform_box">
+              <input type="text" placeholder="Address">
+            </div>
+            <div class="main_05_orderform_box">
+              <input type="text" placeholder="City">
+            </div>
+            <div class="main_05_orderform_box">
+              <input type="text" placeholder="Email">
+            </div>
+            <div class="main_05_orderform_box">
+              <input type="text" placeholder="Phone">
+            </div>
+          </div>
+          <div id="main_05_orderform_btnbox">
+            <button id="main_05_orderform_btn">TAKE ORDER</button>
           </div>
         </div>
-
-        <div class="uk-width-1-1 uk-width-medium-1-3">
-          <div class="uk-panel uk-contrast">
-
-            <h2 class="uk-module-title-alt uk-margin-large-top bottom_font_size" id="lato_regular">Open Hours</h2>
-
-            <dl class="uk-description-list-horizontal" id="lato_regular">
-              <dt>Monday - Friday</dt>
-              <dd>8:00 am to 10:00 pm</dd>
-            </dl>
-            <dl class="uk-description-list-horizontal" id="lato_regular">
-              <dt>Saturdays</dt>
-              <dd>8:00 am to 12:00 pm</dd>
-            </dl>
-            <dl class="uk-description-list-horizontal" id="lato_regular">
-              <dt>Sundays</dt>
-              <dd>1:00 pm to 9:00 pm</dd>
-            </dl>
-
-            <br>
-
-            <h2 class="uk-module-title-alt uk-margin-large-top bottom_font_size" id="lato_regular">From the Chef</h2>
-            <img class="uk-align-left uk-margin-large-right" src="img/chef.png" alt="chef" width="120" height="160">
-            <p id="lato_regular">
-              "My team always maintains a high standard of fish selection, hand picking the freshest fish for our restaurant."
-            </p>
-          </div>
-        </div>
-
-        <div class="uk-width-1-1 uk-width-medium-1-3">
-          <div class="uk-panel uk-panel-box uk-panel-box-primary uk-text-center">
-
-            <!-- order form -->
-            <h3 class="uk-module-title-alt" id="lato_regular">ORDER FORM</h3>
-            <form id="booking_form" class="uk-form uk-form-horizontal uk-margin-top">
-
-              <div id="alert-msg-booking" class="alert-msg"></div>
-
-              <div class="uk-grid uk-grid-width-medium-1-1 uk-grid-width-1-1" data-uk-grid-margin>
-
-                <div class="uk-form-icon">
-                  <i class="uk-icon-info-circle"></i>
-                  <input type="text" placeholder="Name" name="book-name" class="uk-width-1-1" required="required">
-                </div>
-
-                <div class="uk-form-icon">
-                  <i class="uk-icon-send-o"></i>
-                  <input type="text" placeholder="Address" name="book-guests" class="uk-width-1-1" required="required">
-                </div>
-
-                <div class="uk-form-icon">
-                  <i class="uk-icon-building-o"></i>
-                  <input type="text" placeholder="City" name="book-date" class="uk-width-1-1" required="required">
-                </div>
-
-                <div class="uk-display-block uk-form-icon">
-                  <i class="uk-icon-envelope"></i>
-                  <input type="text" placeholder="Email" name="book-time" class="uk-width-1-1" required="required">
-                </div>
-
-                <div class="uk-form-icon">
-                  <i class="uk-icon-phone"></i>
-                  <input type="text" placeholder="Phone" name="book-phone" class="uk-width-1-1" required="required">
-                </div>
-
-                <div class="form-group uk-margin-remove">
-                  <button id="booking_submit" type="submit" class="uk-button-secondary uk-margin-large-top uk-button-large uk-button">TAKE ORDER</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
-  </div>
-
-  <!-- bottom-e -->
-  <div id="tm-bottom-e" class="tm-block-bottom-e uk-block uk-block-default tm-inner-shadow" data-uk-parallax="{bg: '-200'}" style="background-image: url('img/seafood_deco_02.jpg');">
-    <div class="uk-container uk-container-center">
-      <section class="tm-bottom-e uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
-
-        <div class="uk-width-1-1">
-          <div class="uk-panel uk-text-center">
-
-            <img src="img/logo.png" width="250" height="120" alt="demo">
-          </div>
-        </div>
-      </section>
+    <div id="footer">
+      <div id="footer_logo"></div>
     </div>
+    <div class="scrollup"></div>
   </div>
-
-  <!-- offcanvas menu -->
-  <div id="offcanvas" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-      <ul class="uk-nav uk-nav-parent-icon uk-nav-offcanvas" data-uk-nav>
-
-        <!-- Home menu -->
-        <li class="uk-active">
-          <a href="index.html">Home</a>
-        </li>
-
-        <!-- About menu -->
-        <li>
-          <a href="About.html">About</a>
-        </li>
-
-        <!-- Menu menu -->
-        <li><a href="#">Menu</a>
-        </li>
-
-        <!-- Events menu -->
-        <li><a href="#">Events</a></li>
-
-        <!-- Contact us menu -->
-        <li><a href="#">Contact Us</a></li>
-
-        <!-- Direction menu -->
-        <li><a href="#">Direction</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- js -->
-  <script src="js/jquery/jquery.min.js" type="text/javascript"></script>
-
-  <!-- uikit -->
-  <script src="js/uikit.min.js" type="text/javascript"></script>
-  <script src="js/accordion.min.js" type="text/javascript"></script>
-  <script src="js/autocomplete.min.js" type="text/javascript"></script>
-  <script src="js/datepicker.min.js" type="text/javascript"></script>
-  <script src="js/grid.min.js" type="text/javascript"></script>
-  <script src="js/lightbox.min.js" type="text/javascript"></script>
-  <script src="js/parallax.min.js" type="text/javascript"></script>
-  <script src="js/slider.min.js" type="text/javascript"></script>
-  <script src="js/slideset.min.js" type="text/javascript"></script>
-  <script src="js/slideshow.min.js" type="text/javascript"></script>
-  <script src="js/sticky.min.js" type="text/javascript"></script>
-  <script src="js/timepicker.min.js" type="text/javascript"></script>
-  <script src="js/tooltip.min.js" type="text/javascript"></script>
-
-  <!-- theme -->
-  <script src="js/theme.js" type="text/javascript"></script>
 </body>
 </html>
